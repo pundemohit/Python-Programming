@@ -1,5 +1,5 @@
-def average(a, b, c=1):
-  print("The average is ", (a + b + c) / 2)
+# def average(a, b, c=1):
+#   print("The average is ", (a + b + c) / 2)
 
 
 def average(*numbers):
@@ -12,8 +12,8 @@ def average(*numbers):
   return sum / len(numbers)
 
 
-average(4, 6)
-average(b=9)
+# average(4, 6)
+# average(b=9)
 
 c = average(5, 6, 7, 1)
 print(c)
